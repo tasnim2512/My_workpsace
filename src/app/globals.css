@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom styles */
+body {
+    background-color: #181921;
+    color: #EEEFFC;
+}
+
+.sidebar-width {
+    width: 219px;
+}
+
+.custom-checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #1f2937;
+    border: 2px solid #404142;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+.custom-checkbox-container:hover input~.checkmark {
+    background-color: #374151;
+}
+
+.custom-checkbox-container input:checked~.checkmark {
+    background-color: #6b7280;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.custom-checkbox-container .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid #d1d5db;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

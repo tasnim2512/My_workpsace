@@ -1,0 +1,12 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="halfBorderMask">
+      <rect x="0" y="0" width="8" height="16" fill="white"/>
+    </mask>
+  </defs>
+  <!-- Outer circle border -->
+  <circle cx="8" cy="8" r="7"  stroke="#EEEFFC"  stroke-width="2" fill="none"/>
+  <!-- Half-filled border -->
+  <circle cx="8" cy="8" r="7" stroke="#858699" stroke-width="2" fill="none" mask="url(#halfBorderMask)"/>
+</svg>
+

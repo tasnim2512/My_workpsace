@@ -1,0 +1,37 @@
+[
+  {
+    "id": "MY-1",
+    "title": "Welcome to Linear 👋",
+    "date": "12 Mar",
+    "status": "open",
+    "priority": "warning"
+  },
+  {
+    "id": "MY-2",
+    "title": "Try 3 ways to navigate Linear: Command line, keyboard or mouse",
+    "date": "12 Mar",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "id": "MY-3",
+    "title": "Connect to Slack",
+    "date": "12 Mar",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "id": "MY-4",
+    "title": "Connect GitHub or GitLab",
+    "date": "12 Mar",
+    "status": "open",
+    "priority": "low"
+  },
+  {
+    "id": "MY-5",
+    "title": "Customize settings",
+    "date": "12 Mar",
+    "status": "open",
+    "priority": "lowest"
+  }
+]
